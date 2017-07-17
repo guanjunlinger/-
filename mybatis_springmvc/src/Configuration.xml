@@ -4,7 +4,7 @@
 <configuration>
  
     <typeAliases> 
-        <typeAlias alias="VIP_InFormation" type="com.example.pojo.VIP.VIP_InFormation"/> 
+     <typeAlias  alias="VIP_InFormation"  type="com.example.pojo.VIP.VIP_InFormation"/>
          <typeAlias alias="Employee" type="com.example.pojo.Emp.Employee"/>
     </typeAliases>
 <mappers>
