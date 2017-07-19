@@ -1,9 +1,14 @@
 package com.example.controller;
 import java.util.List;
+
+import javax.websocket.server.PathParam;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.example.pojo.VIP.VIP_InFormation;
 import com.example.service.VIP.VIPService;
@@ -32,4 +37,10 @@ System.out.println(user.toString());
 return  vipService.updateVIP(user);
 
 }
+@ResponseBody
+@RequestMapping(value="/selectbir",produces="application/json;charset=UTF-8")
+public List<VIP_InFormation> SelectVIPByBirthday(@RequestParam(value="time",required=false,defaultValue="7") Integer time){
+	return vipService.SelectVIPByBirthday(time);
+}
+
 }

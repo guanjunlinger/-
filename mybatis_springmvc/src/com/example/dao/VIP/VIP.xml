@@ -22,6 +22,18 @@
     </if>
     </where>
    </select>
+   
+  <select id="SelectVIPByBirthday" resultType="VIP_InFormation">
+  select vip_ID,vip_Level,vip_Gender,vip_Name,vip_Birthday,vip_Telephone,vip_Mailbox,vip_Age
+    ,vip_Address,vip_Time
+    from   vip_Information
+    <where>
+    DATEDIFF(CAST(CONCAT(YEAR(NOW()),DATE_FORMAT(vip_Birthday,'-%m-%d'))AS DATE),CAST(DATE_FORMAT(NOW(),'%y-%m-%d')AS DATE)) BETWEEN 0 AND #{time}
+   	OR
+	DATEDIFF(CAST(CONCAT(YEAR(NOW())+1,DATE_FORMAT(vip_Birthday,'-%m-%d'))AS DATE),CAST(DATE_FORMAT(NOW(),'%y-%m-%d')AS DATE)) BETWEEN 0 AND #{time}
+	ORDER BY MONTH(vip_Birthday),DAY(vip_Birthday)
+    </where>
+  </select>
    <update id="updateVIP">
    update vip_Information
    <set>

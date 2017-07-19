@@ -29,6 +29,12 @@ public class UserServiceImpl implements VIPService{
 	public int updateVIP(VIP_InFormation user) {
 		return vipDAO.updateVIP(user);
 	}
+	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
+	@Override
+	public List<VIP_InFormation> SelectVIPByBirthday(Integer time) {
+		// TODO Auto-generated method stub
+		return vipDAO.SelectVIPByBirthday(time);
+	}
 	
 	
 

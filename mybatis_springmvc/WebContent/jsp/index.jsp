@@ -40,7 +40,7 @@ function addTab(title, url){
 						<ul>
 							<li><span><a href="#" onclick="addTab('注册会员','<%=path%>/jsp/VIP_Information/AddVIP.jsp')">注册会员</a></span></li>
 							<li><span><a href="#" onclick="addTab('浏览会员信息','<%=path%>/jsp/VIP_Information/LookVIP.jsp')">浏览会员信息</a></span></li>
-							<li><span>会员生日提醒</span></li>							
+							<li><span><a href="#" onclick="addTab('会员生日提醒','<%=path%>/jsp/VIP_Information/LookBirthday.jsp')">会员生日提醒</a></span></li>							
 						</ul>
 						</li>
 						<li>
