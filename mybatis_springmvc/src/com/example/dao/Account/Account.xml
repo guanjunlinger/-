@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.Account.AccountDao">
+	<select id="selectVIPByBalance"   resultType="VIP_InFormation">
+		select VIP_ID,VIP_Level,VIP_Name,VIP_Balance
+		 from VIP_InFormation
+	     where VIP_Balance &lt;= #{vip_Balance}
+	</select>
+</mapper>

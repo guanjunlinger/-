@@ -10,5 +10,6 @@
 <mappers>
         <mapper resource="com/example/dao/VIP/VIP.xml"/>
         <mapper resource="com/example/dao/Emp/Emp.xml"/>
+        <mapper resource="com/example/dao/Account/Account.xml"/>
     </mappers>
 </configuration>

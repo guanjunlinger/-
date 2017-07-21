@@ -49,7 +49,7 @@ function addTab(title, url){
 						<li>
 						 <span>会员余额管理</span>	
 						<ul>
-							<li><span>余额提醒</span></li>
+							<li><span><a href="#" onclick="addTab('会员余额提醒','<%=path%>/jsp/VIP_Account/Account_balance.jsp')">会员余额提醒</a></span></li>		
 							<li><span>充值</span></li>						
 						</ul>
 						</li>
