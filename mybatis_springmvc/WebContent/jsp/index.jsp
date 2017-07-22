@@ -74,8 +74,8 @@ function addTab(title, url){
 						<li>
 						<span>商品管理</span>
 						<ul>
-							<li><span>新增商品</span></li>
-							<li><span>浏览商品信息</span></li>
+							<li><span><a href="#" onclick="addTab('添加商品信息','<%=path%>/jsp/Goods/AddGoods.jsp')">添加商品信息</a></span></li>
+							<li><span><a href="#" onclick="addTab('浏览商品信息','<%=path%>/jsp/Goods/LookGoods.jsp')">浏览商品信息</a></span></li>
 						</ul>
 					</li>
 				<li>
