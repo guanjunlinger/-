@@ -5,4 +5,19 @@
 	<select id="getEmp" parameterType="String" resultType="Employee">
 		select * from employee_login where employee_Name=#{employee_Name}
 	</select>
+	
+	<insert id="addEmp" parameterType="Employee" useGeneratedKeys="true" keyProperty="employee_Name">
+		insert into employee_login(employee_Name,employee_Password,employee_Level)
+		values (employee_Name=#{employee_Name},employee_Password=#{employee_Password},employee_Level=#{employee_Level})
+	</insert>
+	
+	<update id="updateEmp">
+	update employee_login
+	<set>
+	<if test="employee_Password!=null and employee_Password!=''">
+	employee_Password=#{employee_Password}
+	</if>
+	</set>
+	where employee_Name=#{employee_Name}
+	</update>
 </mapper>

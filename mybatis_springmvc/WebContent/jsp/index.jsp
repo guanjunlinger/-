@@ -92,7 +92,14 @@ function addTab(title, url){
 							<li><span>季度财务报表</span></li>
 							<li><span>年度财务报表</span></li>
 						</ul>
-					</li>			
+					</li>	
+				<li>
+						<span>员工管理</span>
+						<ul>
+							<li><span>添加员工</span></li>
+							<li><span>修改密码</span></li>
+						</ul>
+					</li>		
 				</ul>
 			</div>
     <div region="center" style="width:80%;height:90%;">
