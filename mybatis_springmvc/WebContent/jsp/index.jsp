@@ -47,10 +47,11 @@ function addTab(title, url){
 							<span>会员账户管理</span>
 						<ul>	
 						<li>
-						 <span>会员余额管理</span>	
+						 <span>会员充值管理</span>	
 						<ul>
-							<li><span><a href="#" onclick="addTab('会员余额提醒','<%=path%>/jsp/VIP_Account/Account_balance.jsp')">会员余额提醒</a></span></li>		
-							<li><span><a href="#" onclick="addTab('会员充值','<%=path%>/jsp/VIP_Account/VIP_Recharge.jsp')">会员充值</a></span></li>						
+							<li><span><a href="#" onclick="addTab('会员充值提醒','<%=path%>/jsp/VIP_Account/Account_balance.jsp')">会员余额提醒</a></span></li>		
+							<li><span><a href="#" onclick="addTab('会员充值','<%=path%>/jsp/VIP_Account/VIP_Recharge.jsp')">会员充值</a></span></li>
+							<li><span><a href="#" onclick="addTab('会员充值记录','<%=path%>/jsp/VIP_Account/VIP_RechargeRecord.jsp')">会员充值记录</a></span></li>							
 						</ul>
 						</li>
 						<li>

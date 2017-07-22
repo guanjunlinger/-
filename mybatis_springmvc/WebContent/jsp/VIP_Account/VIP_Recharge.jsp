@@ -34,9 +34,35 @@ function doEdit(){
 	$('#EditVIPForm').form('load',
 			{vip_ID:$('#vip_ID').val(),
 		     discount_ID:row.discount_ID,
-		     discount_total:row.discount_total,
-		     discount_gift:row.discount_gift
+		     recharge_Total:row.discount_total,
+		     recharge_Gift:row.discount_gift
 		     });
+}
+function recharge(){
+	$('#EditVIPForm').form('submit',{
+		url:"<%=path%>/account/rechargeByID.do", 
+		onSubmit: function(){
+			//return $(this).form('validate');
+		},
+		success: function(data){
+			if (data!=1){
+				 $.messager.alert('提示信息', '提交失败，请联系管理员！', 'warning'); 
+			} else {
+				   $.messager.show({ 
+			            title: '提示消息', 
+			            msg: '充值成功', 
+			            showType: 'show', 
+			            timeout: 1000, 
+			            style: { 
+			              right: '', 
+			              bottom: ''
+			            } 
+			          });  
+				$('#dlg').dialog('close');
+				$('#VIP_Account').datagrid('load');
+			}
+		}
+	});
 }
 </script>
 <body>
@@ -70,21 +96,21 @@ function doEdit(){
 			</tr>
 			<tr>
 				<td>优惠号:</td>
-				<td><input name="discount_total" class="easyui-validatebox" type="text" editable="false"></input></td>
+				<td><input name="discount_ID" class="easyui-validatebox" type="text" editable="false"></input></td>
 			</tr>
 		    
 			<tr>
 				<td>充值金额:</td>
-				<td><input name="discount_total" class="easyui-validatebox" type="text" editable="false"></input></td>
+				<td><input name="recharge_Total" class="easyui-validatebox" type="text" editable="false"></input></td>
 			</tr>
 			<tr>
 				<td>赠送金额:</td>
-				<td><input name="discount_gift" class="easyui-validatebox" type="text" editable="false"></input></td>
+				<td><input name="recharge_Gift" class="easyui-validatebox" type="text" editable="false"></input></td>
 			</tr>
 			</table>
 			</form>
 <div id="dlg-buttons">
-	<a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveUser()">确定</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="recharge()">确定</a>
 	<a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">取消</a>
 </div>
 </div>
