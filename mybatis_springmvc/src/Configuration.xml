@@ -4,8 +4,9 @@
 <configuration>
  
     <typeAliases> 
-     <typeAlias  alias="VIP_InFormation"  type="com.example.pojo.VIP.VIP_InFormation"/>
-         <typeAlias alias="Employee" type="com.example.pojo.Emp.Employee"/>
+     <typeAlias alias="VIP_InFormation"  type="com.example.pojo.VIP.VIP_InFormation"/>
+     <typeAlias alias="Employee" type="com.example.pojo.Emp.Employee"/>
+     <typeAlias alias="Discount" type="com.example.pojo.Discount.Discount"/>
     </typeAliases>
 <mappers>
         <mapper resource="com/example/dao/VIP/VIP.xml"/>

@@ -15,7 +15,7 @@ String path = request.getContextPath();
 <script type="text/javascript">
 function doSearchb() { 
 	$('#Account_balance').datagrid('load',{
-		vip_Balance: $('#vip_Balance').val(),
+		vip_Balance:$('#time').val(),
 	});
 } 
 
