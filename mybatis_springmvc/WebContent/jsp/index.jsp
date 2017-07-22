@@ -75,8 +75,8 @@ function addTab(title, url){
 						<li>
 						<span>商品管理</span>
 						<ul>
-							<li><span>新增商品</span></li>
-							<li><span>浏览商品信息</span></li>
+							<li><span><a href="#" onclick="addTab('添加商品信息','<%=path%>/jsp/Goods/AddGoods.jsp')">添加商品信息</a></span></li>
+							<li><span><a href="#" onclick="addTab('浏览商品信息','<%=path%>/jsp/Goods/LookGoods.jsp')">浏览商品信息</a></span></li>
 						</ul>
 					</li>
 				<li>
@@ -93,7 +93,14 @@ function addTab(title, url){
 							<li><span>季度财务报表</span></li>
 							<li><span>年度财务报表</span></li>
 						</ul>
-					</li>			
+					</li>	
+				<li>
+						<span>员工管理</span>
+						<ul>
+							<li><span>添加员工</span></li>
+							<li><span>修改密码</span></li>
+						</ul>
+					</li>		
 				</ul>
 			</div>
     <div region="center" style="width:80%;height:90%;">

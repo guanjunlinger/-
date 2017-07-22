@@ -29,4 +29,20 @@ public class EmpController {
 		}
 		return 0;		
 	}
+	
+	
+	@ResponseBody 
+	@RequestMapping(value="/addEmp",produces="application/json;charset=UTF-8")
+	public int addEmp(Employee emp){
+		return 0;
+	}
+	
+	@ResponseBody 
+	@RequestMapping(value="/updateEmp",produces="application/json;charset=UTF-8")
+	public int updateEmp(Employee emp){
+		return 0;
+	}
+	
+	
+	
 }
