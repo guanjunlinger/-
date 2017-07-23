@@ -82,7 +82,7 @@ function addTab(title, url){
 				<li>
 						<span>订单管理</span>
 						<ul>
-							<li><span>会员下单</span></li>
+								<li><span><a href="#" onclick="addTab('会员下单','<%=path%>/jsp/Order/createOrder.jsp')">会员下单</a></span></li>
 							<li><span>订单查询</span></li>
 						</ul>
 					</li>
