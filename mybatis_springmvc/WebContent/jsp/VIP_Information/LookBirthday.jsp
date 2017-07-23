@@ -43,12 +43,9 @@ function doSearchb() {
 </table>
 <div >
 	<div id="toolbar" style="padding:3px">
-		<span>日期:</span>
-		
+		<span>日期:</span>		
 		<input id="time" style="line-height:26px;border:1px solid #ccc">
-		<a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="doSearchb()">查询</a>
-		
-		
+		<a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="doSearchb()">查询</a>				
 	</div>
 </div>
 </body>

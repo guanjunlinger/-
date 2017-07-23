@@ -7,4 +7,23 @@
 		 from VIP_InFormation
 	     where VIP_Balance &lt;= #{vip_Balance}
 	</select>
+		<select id="selectrechargetype"   resultType="Discount">
+		select Discount.Discount_ID Discount_ID,Discount_total,Discount_gift
+		from VIP_InFormation,Discount,VIP_Discount
+		where
+		VIP_InFormation.vip_ID=#{vip_ID} and
+	    VIP_InFormation.vip_Level=VIP_Discount.vip_Level and Discount.Discount_ID=VIP_Discount.Discount_ID	
+	
+	</select>
+	<select id="selectrechargeRecordByID" resultType="VIP_Recharge">
+	select *
+	from VIP_Recharge
+	<where>
+	<if test="vip_ID!=null"> vip_ID=#{vip_ID}</if>
+	</where>
+	</select>
+	<insert id="rechargeByID" parameterType="VIP_Recharge">
+	insert into VIP_Recharge(VIP_ID,Recharge_Total,Recharge_Accumulate,Recharge_Time,Employee_Name)
+	values(#{vip_ID},#{recharge_Total},#{recharge_Accumulate},#{recharge_Time},#{employee_Name})
+	</insert>
 </mapper>

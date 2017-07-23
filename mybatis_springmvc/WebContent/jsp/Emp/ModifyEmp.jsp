@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <%  
 String path = request.getContextPath(); 
 %> 
@@ -19,7 +20,7 @@ function submitForm() {
       url: "<%=path%>/emp/updateEmp.do", 
       onSubmit: function () {
         return  $(this).form('validate');
-      }, 
+       }, 
       success: function (data) {
         if (data > 0) { 
           $.messager.show({ 
@@ -59,5 +60,6 @@ function submitForm() {
 			<div region="south" border="false" style="text-align:right;padding:5px 0;">
                 <a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="submitForm()">登录</a>
             </div>
+<body>
 </body>
 </html>

@@ -66,5 +66,6 @@ function submitForm() {
           <a class="easyui-linkbutton" data-options="iconCls:'icon-ok'" style="margin-left: 10px;" onclick="submitForm()">提交</a> 
       </div> 	
 	</form>
+<body>
 </body>
 </html>

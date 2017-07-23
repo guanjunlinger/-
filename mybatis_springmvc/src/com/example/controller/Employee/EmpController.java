@@ -1,8 +1,5 @@
 package com.example.controller.Employee;
-import java.util.Map;
-
 import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -33,9 +30,7 @@ public class EmpController {
 				return 1;
 		}
 		return 0;		
-	}
-	
-	
+	}	
 	@ResponseBody 
 	@RequestMapping(value="/addEmp",produces="application/json;charset=UTF-8")
 	public int addEmp(@ModelAttribute("emp")Employee emp){
@@ -49,8 +44,5 @@ public class EmpController {
 		Employee employee=(Employee) req.getSession().getAttribute("employee");
 		employee.setEmployee_Password(emp.getEmployee_Password());
 		return empService.updateEmp(employee);
-	}
-	
-	
-	
+	}		
 }

@@ -47,10 +47,11 @@ function addTab(title, url){
 							<span>会员账户管理</span>
 						<ul>	
 						<li>
-						 <span>会员余额管理</span>	
+						 <span>会员充值管理</span>	
 						<ul>
-							<li><span><a href="#" onclick="addTab('会员余额提醒','<%=path%>/jsp/VIP_Account/Account_balance.jsp')">会员余额提醒</a></span></li>		
-							<li><span>充值</span></li>						
+							<li><span><a href="#" onclick="addTab('会员充值提醒','<%=path%>/jsp/VIP_Account/Account_balance.jsp')">会员余额提醒</a></span></li>		
+							<li><span><a href="#" onclick="addTab('会员充值','<%=path%>/jsp/VIP_Account/VIP_Recharge.jsp')">会员充值</a></span></li>
+							<li><span><a href="#" onclick="addTab('会员充值记录','<%=path%>/jsp/VIP_Account/VIP_RechargeRecord.jsp')">会员充值记录</a></span></li>							
 						</ul>
 						</li>
 						<li>
@@ -81,7 +82,7 @@ function addTab(title, url){
 				<li>
 						<span>订单管理</span>
 						<ul>
-							<li><span>会员下单</span></li>
+								<li><span><a href="#" onclick="addTab('会员下单','<%=path%>/jsp/Order/createOrder.jsp')">会员下单</a></span></li>
 							<li><span>订单查询</span></li>
 						</ul>
 					</li>
@@ -96,8 +97,11 @@ function addTab(title, url){
 				<li>
 						<span>员工管理</span>
 						<ul>
+
 							<li><span><a href="#" onclick="addTab('添加员工','<%=path%>/jsp/Emp/AddEmp.jsp')">添加员工</a></span></li>
 							<li><span><a href="#" onclick="addTab('修改密码','<%=path%>/jsp/Emp/ModifyEmp.jsp')">修改密码</a></span></li>
+							<li><span>添加员工</span></li>
+							<li><span>修改密码</span></li>
 						</ul>
 					</li>		
 				</ul>

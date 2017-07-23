@@ -12,36 +12,34 @@ String path = request.getContextPath();
 <script type="text/javascript"  src="<%=path%>/easyui_1.5.2/locale/easyui-lang-zh_CN.js"></script>  
 <link rel="stylesheet" type="text/css"  href="<%=path%>/easyui_1.5.2/themes/default/easyui.css" />  
 <link rel="stylesheet" type="text/css"  href="<%=path%>/easyui_1.5.2/themes/icon.css" />
-<script type="text/javascript">
-function doSearchb() { 
-	$('#Account_balance').datagrid('load',{
-		vip_Balance:$('#time').val(),
+</head>
+<script>
+function doSearch() { 
+	$('#VIP_Account').datagrid('load',{
+		vip_ID: $('#vip_ID').val()
 	});
 } 
-
 </script>
-</head>
 <body>
-<table id="Account_balance" title="VIP账户余额提醒" class="easyui-datagrid" 
-        url="<%=path%>/account/balance.do"
-		toolbar="#toolbar" fit="true" idField="vip_ID" pagination="true"
+<table id="VIP_Account" title="VIP充值记录" class="easyui-datagrid" 
+		toolbar="#toolbar" fit="true" idField="recharge_Time" pagination="true"
+		url="<%=path%>/account/selectrechargeRecordByID.do"
 		rownumbers="true" fitColumns="true" singleSelect="true">
 	<thead> 
-		<tr>
-			<th field="vip_ID" width="50">会员号</th>
-			<th field="vip_Level" width="40">会员等级</th>
-			<th field="vip_Name" width="50">会员姓名</th>
-			<th field="vip_Balance" width="50">会员账户余额</th>
+		<tr> 
+		    <th field="vip_ID" width="50">会员号</th> 
+			<th field="recharge_Time" width="50">充值时间</th>
+	        <th field="recharge_Total" width="50">实际充值金额</th>
+	        <th field="recharge_Accumulate" width="50">累计充值金额</th>
+	        <th field="employee_Name" width="50">经办人</th>     
 		</tr>
 	</thead>
 </table>
-<div >
-	<div id="toolbar" style="padding:3px">
-		<span>余额:</span>		
-		<input id="time" style="line-height:26px;border:1px solid #ccc">
-		<a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="doSearchb()">查询</a>
-		
-		
+<div id="toolbar">
+	<div id="tb" style="padding:3px">
+		<span>会员号:</span>
+		<input id="vip_ID" style="line-height:26px;border:1px solid #ccc">
+		<a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="doSearch()">查询充值记录</a>
 	</div>
 </div>
 </body>
