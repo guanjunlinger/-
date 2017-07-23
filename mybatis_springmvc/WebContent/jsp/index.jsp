@@ -96,8 +96,8 @@ function addTab(title, url){
 				<li>
 						<span>员工管理</span>
 						<ul>
-							<li><span>添加员工</span></li>
-							<li><span>修改密码</span></li>
+							<li><span><a href="#" onclick="addTab('添加员工','<%=path%>/jsp/Emp/AddEmp.jsp')">添加员工</a></span></li>
+							<li><span><a href="#" onclick="addTab('修改密码','<%=path%>/jsp/Emp/ModifyEmp.jsp')">修改密码</a></span></li>
 						</ul>
 					</li>		
 				</ul>

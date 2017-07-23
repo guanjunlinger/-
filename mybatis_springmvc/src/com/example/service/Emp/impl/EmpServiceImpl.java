@@ -17,4 +17,16 @@ public class EmpServiceImpl implements EmpService {
 	public Employee getEmp(String employee_Name) {
 		return empDao.getEmp(employee_Name);
 	}
+	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
+	@Override
+	public int addEmp(Employee emp) {
+		// TODO Auto-generated method stub
+		return empDao.addEmp(emp);
+	}
+	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
+	@Override
+	public int updateEmp(Employee emp) {
+		// TODO Auto-generated method stub
+		return empDao.updateEmp(emp);
+	}
 }

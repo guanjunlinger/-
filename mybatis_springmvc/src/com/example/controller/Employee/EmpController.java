@@ -1,4 +1,8 @@
 package com.example.controller.Employee;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -15,13 +19,14 @@ public class EmpController {
 	
 	@ResponseBody 
 	@RequestMapping(value="/login",produces="application/json;charset=UTF-8")
-	public int login(@ModelAttribute("emp")Employee emp){
+	public int login(@ModelAttribute("emp")Employee emp,HttpServletRequest req){
 		System.out.println(emp.toString());
 		Employee toemp=empService.getEmp(emp.getEmployee_Name());
 		if(toemp!=null)
 		{
 			if(toemp.getEmployee_Password().equals(emp.getEmployee_Password()))
 			{
+				req.getSession().setAttribute("employee", toemp);
 				return 2;
 			}
 			else
@@ -33,14 +38,17 @@ public class EmpController {
 	
 	@ResponseBody 
 	@RequestMapping(value="/addEmp",produces="application/json;charset=UTF-8")
-	public int addEmp(Employee emp){
-		return 0;
+	public int addEmp(@ModelAttribute("emp")Employee emp){
+		System.out.println(emp);
+		return empService.addEmp(emp);
 	}
 	
 	@ResponseBody 
 	@RequestMapping(value="/updateEmp",produces="application/json;charset=UTF-8")
-	public int updateEmp(Employee emp){
-		return 0;
+	public int updateEmp(Employee emp,HttpServletRequest req){
+		Employee employee=(Employee) req.getSession().getAttribute("employee");
+		employee.setEmployee_Password(emp.getEmployee_Password());
+		return empService.updateEmp(employee);
 	}
 	
 	
