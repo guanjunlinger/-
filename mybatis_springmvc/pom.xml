@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <spring.version>4.1.1.RELEASE</spring.version>
         <mybatis.version>3.4.2</mybatis.version>
         <mysql.version>5.1.30</mysql.version>
@@ -22,11 +24,6 @@
         </repository>
     </repositories>
     <dependencies>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.12</version>
-        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
@@ -104,21 +101,11 @@
             <version>${jackson.version}</version>
         </dependency>
     </dependencies>
-    <distributionManagement>
-        <repository>
-            <id>spring</id>
-            <url>file:F:/maven/</url>
-        </repository>
-    </distributionManagement>
     <build>
         <resources>
             <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.properties</include>
-                    <include>**/*.xml</include>
-                </includes>
-                <filtering>false</filtering>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
             </resource>
         </resources>
     </build>
