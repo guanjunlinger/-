@@ -6,8 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="592a7035-eebe-4eed-ac09-f1884de61e3a" name="Default" comment="完成POM文件转化">
+    <list default="true" id="592a7035-eebe-4eed-ac09-f1884de61e3a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/controller/VipOrder/VipOrderController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/VipOrder/VipOrderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrderDao.class" afterPath="$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrderDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/VipOrderService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/VipOrderService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/impl/VipOrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/impl/VipOrderServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/controller/VipOrder/VipOrderController.class" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/controller/VipOrder/VipOrderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/VIPORDER/VipOrderDao.class" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/VIPORDER/VipOrderDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/VIPORDER/VipOrderService.class" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/VIPORDER/VipOrderService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/VIPORDER/impl/VipOrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/VIPORDER/impl/VipOrderServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis_springmvc.iml" afterPath="$PROJECT_DIR$/mybatis_springmvc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrder.xml" afterPath="$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrder.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/VIPORDER/VipOrder.xml" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/VIPORDER/VipOrder.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Order/VipOrder.jsp" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Order/VipOrder.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,85 +53,16 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmpController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/Employee/EmpController.java">
+    <leaf>
+      <file leaf-file-name="AccountContrller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/Account/AccountContrller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createOrder.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4662">
-              <caret line="126" column="47" lean-forward="false" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
-                <marker date="1502624449054" expanded="true" signature="1052:1075" ph="..." />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VipOrder.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VipOrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/ProOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LookGoods.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Goods/LookGoods.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2220">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="75" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -148,12 +98,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Configuration.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml" />
       </list>
     </option>
   </component>
@@ -173,9 +128,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\maven\repository" />
         <option name="mavenHome" value="E:/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="C:\Users\201402\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -233,7 +186,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,13 +196,34 @@
               <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,6 +235,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/example/dao/VIP/VIP.xml" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -579,6 +556,8 @@
       <workItem from="1502621580166" duration="1554000" />
       <workItem from="1502625077419" duration="3366000" />
       <workItem from="1502718822521" duration="1975000" />
+      <workItem from="1502721853599" duration="675000" />
+      <workItem from="1502722551900" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="完成POM文件转化">
       <created>1502719152183</created>
@@ -586,12 +565,15 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1502719152183</updated>
+      <workItem from="1502627484702" duration="2880000" />
+      <workItem from="1502694181290" duration="2235000" />
+      <workItem from="1502696924500" duration="3055000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51834000" />
+    <option name="totallyTimeSpent" value="55605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1448" height="864" extended-state="6" />
@@ -608,10 +590,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2747396" sideWeight="0.48541668" order="2" side_tool="false" content_ui="tabs" x="0" y="22" width="1366" height="706" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3268229" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268229" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33125" sideWeight="0.49081364" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.49081364" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17569546" sideWeight="0.5091863" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -673,7 +655,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成POM文件转化" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成POM文件转化" />
+    <MESSAGE value="合并两个分支到最新" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并两个分支到最新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,28 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/Employee/EmpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/Employee/EmpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/mybatis_springmvc_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -719,13 +680,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/Account/AccountContrller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/JDK/JDK1.8/src.zip!/java/io/DataInputStream.java" />
     <entry file="jar://E:/JDK/JDK1.8/src.zip!/java/lang/Thread.java" />
     <entry file="uml://MAVEN/groupId:mybatis_springmvc:1.0-SNAPSHOT">
@@ -787,27 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Account/Account.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIP/VIP.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIP/VIPDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -902,24 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/VIPORDER/VipOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -976,14 +895,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Goods/LookGoods.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="126" column="47" lean-forward="false" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2220">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="75" selection-end-column="8" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -992,57 +924,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Goods/LookGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIP/VIPDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4662">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIP/VIP.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_springmvc.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="629">
+          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4662">
-          <caret line="126" column="47" lean-forward="false" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <marker date="1502624449054" expanded="true" signature="1052:1075" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_springmvc.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Account/Account.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="259">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.controller.Account.AccountContrller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.controller.Account.AccountContrller</OriginalElement>
+          <nodes>
+            <node x="65.0" y="80.0">com.example.controller.Account.AccountContrller</node>
+            <node x="0.0" y="0.0">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="154.0" y="0.0">org.springframework.stereotype.Controller</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.example.controller.Account.AccountContrller" target="org.springframework.stereotype.Controller">
+              <point x="36.5" y="-15.0" />
+              <point x="174.5" y="55.0" />
+              <point x="209.0" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.example.controller.Account.AccountContrller" target="org.springframework.web.bind.annotation.RequestMapping">
+              <point x="-36.5" y="-15.0" />
+              <point x="101.5" y="55.0" />
+              <point x="67.0" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="132.0" y="55.0" />
+          <SelectedNodes>
+            <node>com.example.controller.Account.AccountContrller</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/Account/AccountContrller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,6 +1118,7 @@
             <option name="proportions">
               <list>
                 <option value="0.40114942" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

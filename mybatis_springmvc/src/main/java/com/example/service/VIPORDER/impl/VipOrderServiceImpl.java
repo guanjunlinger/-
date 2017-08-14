@@ -21,9 +21,9 @@ public class VipOrderServiceImpl implements VipOrderService {
 	
 	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
 
-	public List<VipOrder> selectByDate(String year, String month) {
+	public List<VipOrder> selectByDate(String year, String month1,String month2) {
 		// TODO Auto-generated method stub
-		return vipOrderDao.selectByDate(year, month);
+		return vipOrderDao.selectByDate(year, month1,month2);
 	}
 
 }

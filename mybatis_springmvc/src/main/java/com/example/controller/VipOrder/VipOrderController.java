@@ -23,10 +23,42 @@ public class VipOrderController {
 	
 	@ResponseBody  
 	@RequestMapping(value="/selectByDate",produces="application/json;charset=UTF-8")
-	public List<VipOrder> selectByDate(@RequestParam(value="year",defaultValue="2017")String year,@RequestParam(value="month",defaultValue="07")String month){
-		
-		System.out.println(year+""+month);
-		return vipOrderService.selectByDate(year, month);
+	public List<VipOrder> selectByDate(@RequestParam(value="year",defaultValue="2017")String year,@RequestParam(value="quarter",defaultValue = "0")String quarter,@RequestParam(value="month",defaultValue="0")String month){
+
+
+		String month1="",month2="";
+		if(month.equals("0"))
+		{
+			if(quarter.equals("0"))
+			{
+				month1="01";
+				month2="12";
+			}
+			else if(quarter.equals("1"))
+			{
+				month1="01";
+				month2="03";
+			}
+			else if(quarter.equals("2"))
+			{
+				month1="04";
+				month2="06";
+			}
+			else if(quarter.equals("3"))
+			{
+				month1="07";
+				month2="09";
+			}
+			else if(quarter.equals("4"))
+			{
+				month1="10";
+				month2="12";
+			}
+		}else
+		{
+			month1=month2=month;
+		}
+		return vipOrderService.selectByDate(year,month1,month2);
 	}
 	@RequestMapping(value="/subOrder",produces="application/json;charset=UTF-8")
 	@ResponseBody

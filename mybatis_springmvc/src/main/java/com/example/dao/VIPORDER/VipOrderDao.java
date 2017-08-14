@@ -9,5 +9,5 @@ import com.example.pojo.VIPORDER.VipOrder;
 @Repository
 public interface VipOrderDao {
 
-	public List<VipOrder> selectByDate(@Param("year") String year, @Param("month") String month);
+	public List<VipOrder> selectByDate(@Param("year") String year, @Param("month1") String  month1,@Param("month2") String  month2);
 }
