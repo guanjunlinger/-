@@ -8,7 +8,9 @@
 	<where>
 	YEAR(order_Time)=#{year}
 	AND
-	MONTH(order_Time)=#{month}
+	MONTH(order_Time) >= #{month1}
+	AND
+	MONTH(order_Time) &lt;= #{month2}
 	
 	</where>
 	    	
