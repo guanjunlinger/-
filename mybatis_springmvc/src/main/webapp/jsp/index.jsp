@@ -83,13 +83,14 @@
 				<span>订单管理</span>
 				<ul>
 					<li><span><a href="#" onclick="addTab('会员下单','<%=path%>/jsp/Order/createOrder.jsp')">会员下单</a></span></li>
-					<li><span>订单查询</span></li>
+					<li><span><a href="#" onclick="addTab('订单查询','<%=path%>/jsp/Order/lookOrder.jsp')">订单查询</a></span></li>
+
 				</ul>
 			</li>
 			<li>
 				<span>财务管理</span>
 				<ul>
-					<li><span><a href="#" onclick="addTab('会员账户查看','<%=path%>/jsp/VIP_Order/VipOrder.jsp')">会员账户查看</a></span></li>
+					<li><span><a href="#" onclick="addTab('账单查看','<%=path%>/jsp/VIP_Order/VipOrder.jsp')">会员账户查看</a></span></li>
 				</ul>
 			</li>
 			<li>

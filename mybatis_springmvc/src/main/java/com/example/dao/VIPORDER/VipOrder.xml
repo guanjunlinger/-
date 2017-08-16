@@ -2,6 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.dao.VIPORDER.VipOrderDao">
+
+
 	<select id="selectByDate" resultType="VipOrder">
 	select vip_ID,order_ID,order_total,order_Time,employee_Name
 	from vip_order
@@ -13,6 +15,12 @@
 	MONTH(order_Time) &lt;= #{month2}
 	
 	</where>
-	    	
 	</select>
+
+	<select id="selectByIds" resultType="VipOrder">
+		select vip_ID,order_ID,order_total,order_Time,employee_Name
+		from vip_order
+	</select>
+
+
 </mapper>

@@ -9,7 +9,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 public class VipOrder implements Serializable{
 
-	private int vip_ID;
+	private Integer vip_ID;
 	private String order_ID;
 	private float order_total;
 	@DateTimeFormat(pattern="yyyy-MM-dd") 

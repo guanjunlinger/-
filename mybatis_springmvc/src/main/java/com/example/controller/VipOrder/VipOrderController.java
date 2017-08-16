@@ -68,4 +68,14 @@ public class VipOrderController {
 		System.out.println(proOrders);
 		return 0;
 	}
+
+	@RequestMapping(value="/selectById",produces="application/json;charset=UTF-8")
+	@ResponseBody
+	public List<VipOrder> selectById(Integer vip_ID,String order_ID){
+
+
+		vip_ID=1;
+		order_ID="111";
+		return vipOrderService.selectByIds(vip_ID,order_ID);
+	}
 } 
