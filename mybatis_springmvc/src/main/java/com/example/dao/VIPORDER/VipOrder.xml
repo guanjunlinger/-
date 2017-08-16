@@ -21,6 +21,13 @@
 		select vip_ID,order_ID,order_total,order_Time,employee_Name
 		from vip_order
 	</select>
-
+	<insert id="insertOrderItemById" >
+		insert into product_order(Order_ID,product_ID,product_Num)
+		values(#{order_ID},#{orderItem.product_ID},#{orderItem.product_Num})
+	</insert>
+	<insert id="insertOrderById" >
+		insert into vip_order(VIP_ID,Order_ID,Order_total)
+		values(#{VIP_ID},#{Order_ID},#{Order_total})
+	</insert>
 
 </mapper>

@@ -7,695 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="592a7035-eebe-4eed-ac09-f1884de61e3a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrder.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/Configuration.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/controller/VipOrder/VipOrderController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/Account/AccountDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/Emp/EmpDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/Goods/GoodsDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/VIP/VIPDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/VIPORDER/VipOrder.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/dao/VIPORDER/VipOrderDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/pojo/VIPORDER/VipOrder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/VIPORDER/VipOrderService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/classes/com/example/service/VIPORDER/impl/VipOrderServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/log4j.Properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/accordion/_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/datagrid/rowediting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/datagrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/expandable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/horizontal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/multiple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/accordion/tools.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/calendar/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/calendar/custom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/calendar/disabledate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/calendar/firstday.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/calendar/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/calendar/weeknumber.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combo/animation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combo/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/combobox_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/combobox_data2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/customformat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/dynamicdata.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/itemicon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/multiline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/multiple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/remotedata.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combobox/remotejsonp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/datagrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/initvalue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/multiple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combogrid/setvalue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotree/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotree/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotree/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotree/initvalue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotree/multiple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotree/tree_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotreegrid/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotreegrid/multiple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/combotreegrid/treegrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/aligncolumns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/cacheeditor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/cellediting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/cellstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/checkbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/clientpagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/columngroup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/complextoolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/contextmenu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/custompager.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/datagrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/datagrid_data2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/formatcolumns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/frozencolumns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/frozenrows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/mergecells.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/multisorting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/products.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/rowborder.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/rowediting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/rowstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/selection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/simpletoolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datagrid/transform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datalist/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datalist/checkbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datalist/datalist_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datalist/group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datalist/multiselect.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datalist/remotedata.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/clone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/dateformat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/restrict.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/sharedcalendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datebox/validate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimebox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimebox/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimebox/initvalue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimebox/showseconds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimespinner/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimespinner/clearicon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimespinner/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/datetimespinner/format.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/dialog/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/dialog/complextoolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/dialog/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/dialog/toolbarbuttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/draggable/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/draggable/constrain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/draggable/snap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/droppable/accept.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/droppable/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/droppable/sort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/easyloader/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/filebox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/filebox/buttonalign.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/filebox/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/form/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/form/form_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/form/load.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/form/validateonsubmit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/addremove.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/autoheight.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/collapsetitle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/complex.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/customcollapsetitle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/datagrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/full.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/nestedlayout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/nocollapsible.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/propertygrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/layout/tree_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/iconalign.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/plain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/size.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/style.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/linkbutton/toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menu/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menu/customitem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menu/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menu/inline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menu/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menubutton/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menubutton/alignment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menubutton/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/menubutton/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/messager/alert.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/messager/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/messager/interactive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/messager/position.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberbox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberbox/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberbox/format.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberbox/range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberspinner/align.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberspinner/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberspinner/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberspinner/increment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/numberspinner/range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/pagination/attaching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/pagination/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/pagination/custombuttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/pagination/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/pagination/links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/pagination/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/customtools.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/halign.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/loadcontent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/nestedpanel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/panel/paneltools.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/passwordbox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/passwordbox/flash.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/passwordbox/validatepassword.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/progressbar/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/progressbar/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/propertygrid/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/propertygrid/customcolumns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/propertygrid/groupformat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/propertygrid/propertygrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/resizable/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/searchbox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/searchbox/category.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/searchbox/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/slider/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/slider/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/slider/formattip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/slider/nonlinear.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/slider/range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/slider/rule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/slider/vertical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/splitbutton/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/splitbutton/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/switchbutton/action.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/switchbutton/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/autoheight.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/dropdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/fixedwidth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/hover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/nestedtabs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/striptools.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/style.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/tabimage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/tabposition.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/tabstools.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tabs/tree_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tagbox/autocomplete.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tagbox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tagbox/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tagbox/format.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tagbox/style.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tagbox/tagbox_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tagbox/validate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/clearicon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/custom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/multiline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/textbox/size.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/timespinner/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/timespinner/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/timespinner/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/timespinner/range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/_dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/customcontent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/customstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/position.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tooltip/tooltipdialog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/animation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/checkbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/contextmenu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/customcheckbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/dnd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/editable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/formatting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/lazyload.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/lines.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/tree_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/tree/tree_data2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/actions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/checkbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/clientpagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/contextmenu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/customcheckbox.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/editable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/lines.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/reports.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/treegrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/treegrid_data2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/treegrid/treegrid_data3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/validatebox/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/validatebox/customtooltip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/validatebox/errorplacement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/validatebox/validateonblur.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/borderstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/customtools.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/inlinewindow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/modalwindow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/demo/window/windowlayout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/dialog/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/dialog/message.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/form/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/layout/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/menu/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/menu/menubar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/panel/_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/panel/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/toolbar/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/toolbar/button.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/toolbar/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/tree/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/demo-mobile/tree/dnd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/easyloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/jquery.easyui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/jquery.easyui.mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-am.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-cz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-jp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-pt_BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-sv_SE.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/locale/easyui-lang-zh_TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.combo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.combobox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.combogrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.combotree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.combotreegrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.datagrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.datalist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.datebox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.datetimebox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.datetimespinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.droppable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.filebox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.linkbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.menubutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.messager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.numberbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.numberspinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.pagination.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.passwordbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.propertygrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.resizable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.searchbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.spinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.splitbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.switchbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.tagbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.textbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.timespinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.treegrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.validatebox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/plugins/jquery.window.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/easyloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.combobox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.datebox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.droppable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.linkbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.propertygrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.resizable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/src/jquery.window.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/black/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/bootstrap/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/color.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/default/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/gray/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/material/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/metro/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/easyui_1.5.2/themes/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/Emp/AddEmp.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/Emp/ModifyEmp.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/Goods/AddGoods.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/Goods/LookGoods.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/Order/createOrder.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Account/Account_balance.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Account/VIP_Recharge.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Account/VIP_RechargeRecord.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Information/AddVIP.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Information/LookBirthday.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Information/LookVIP.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/VIP_Order/VipOrder.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/jsp/login.jsp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/OrderDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/OrderItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/pojo/StringUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/ProOrder.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/controller/VipOrder/VipOrderController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/VipOrder/VipOrderController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrderDao.class" afterPath="$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrderDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/pojo/VIPORDER/VipOrder.class" afterPath="$PROJECT_DIR$/target/classes/com/example/pojo/VIPORDER/VipOrder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/VipOrderService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/VipOrderService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/impl/VipOrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/example/service/VIPORDER/impl/VipOrderServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/mybatis_springmvc_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_springmvc_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/mybatis_springmvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_springmvc_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis_springmvc.iml" afterPath="$PROJECT_DIR$/mybatis_springmvc.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/pojo/VIPORDER/VipOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/pojo/VIPORDER/VipOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/Goods/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/Goods/impl/GoodsServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Configuration.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Configuration.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/mybatis_springmvc-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -723,25 +52,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VipOrder.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml">
+      <file leaf-file-name="VipOrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="156">
+              <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
               <folding>
-                <element signature="e#432#436#0" expanded="true" />
-                <marker date="1502877339110" expanded="true" signature="523:599" ph="select vip_I... vip_order" />
+                <element signature="e#1710#1711#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VipOrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -749,41 +68,28 @@
       <file leaf-file-name="VipOrderServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="110">
+              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VipOrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java">
+      <file leaf-file-name="OrderItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/OrderItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2340">
-              <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+            <state relative-caret-position="148">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Goods.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Goods/Goods.xml">
+      <file leaf-file-name="createOrder.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <marker date="1502018669000" expanded="true" signature="532:648" ph="insert into product_information... " />
-                <marker date="1502018669000" expanded="true" signature="691:981" ph="update produ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="103" column="11" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+            <state relative-caret-position="296">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -795,6 +101,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -828,19 +135,24 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/Order/lookOrder.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/pojo/VIPORDER/VipOrder.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Configuration.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/ProOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/OrderDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/Goods/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/pojo/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp" />
       </list>
     </option>
   </component>
@@ -873,22 +185,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="mybatis_springmvc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mybatis_springmvc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mybatis_springmvc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="compiler" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -926,7 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -937,39 +238,138 @@
             <path>
               <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="VIPORDER" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="ProOrder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="VIPORDER" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="VIPORDER" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_springmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1311,6 +711,8 @@
       <workItem from="1502873319065" duration="2855000" />
       <workItem from="1502876745664" duration="2738000" />
       <workItem from="1502879545905" duration="512000" />
+      <workItem from="1502881885763" duration="3322000" />
+      <workItem from="1502885871339" duration="5152000" />
     </task>
     <task id="LOCAL-00001" summary="完成POM文件转化">
       <created>1502719152183</created>
@@ -1326,15 +728,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72327000" />
+    <option name="totallyTimeSpent" value="80801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-4" y="-4" width="1448" height="864" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2747396" sideWeight="0.5173611" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17083333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09583333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1349,9 +752,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.27378437" sideWeight="0.4826389" order="2" side_tool="false" content_ui="tabs" x="0" y="22" width="1920" height="1018" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.27378437" sideWeight="0.4826389" order="2" side_tool="false" content_ui="tabs" x="0" y="19" width="1440" height="837" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3266385" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32552084" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.49081364" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17569546" sideWeight="0.5091863" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1418,27 +821,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIP/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/Goods/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPAccountImpl/AccountImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/Emp/impl/EmpServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -1608,24 +990,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="138" column="74" lean-forward="false" selection-start-line="138" selection-start-column="74" selection-end-line="138" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/VIP_Order/VipOrder.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
           <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/ProOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1643,13 +1011,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/lookOrder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/lookOrder.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Goods/LookGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-323">
@@ -1678,24 +1040,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/Goods/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/VIPORDER/VipOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1735,48 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Goods/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#432#436#0" expanded="true" />
-            <marker date="1502877339110" expanded="true" signature="523:599" ph="select vip_I... vip_order" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrderDao.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1785,24 +1091,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/example/dao/VIPORDER/VipOrder.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Goods/Goods.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <marker date="1502018669000" expanded="true" signature="532:648" ph="insert into product_information... " />
-            <marker date="1502018669000" expanded="true" signature="691:981" ph="update produ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Account/Account.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1819,8 +1107,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="103" column="11" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+        <state relative-caret-position="11">
+          <caret line="103" column="11" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/VIPORDER/VipOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/VipOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/Goods/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/Goods/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Goods/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/Goods/Goods.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1502624447650" expanded="true" signature="532:648" ph="insert into product_information... " />
+            <marker date="1502624447650" expanded="true" signature="691:981" ph="update produ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/OrderDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/controller/VipOrder/VipOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+          <folding>
+            <element signature="e#1710#1711#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/dao/VIPORDER/VipOrder.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <marker date="1502888902195" expanded="true" signature="523:599" ph="select vip_I... vip_order" />
+            <marker date="1502888902195" expanded="true" signature="649:778" ph="insert into product_order... " />
+            <marker date="1502888902195" expanded="true" signature="824:921" ph="insert into vip_order... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/service/VIPORDER/impl/VipOrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/pojo/ProOrder/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/Order/createOrder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -21,7 +21,6 @@ public class GoodsServiceImpl implements GoodsService{
 	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
 	@Override
 	public List<Goods> selectById(Integer product_ID) {
-		// TODO Auto-generated method stub
 		return goodsDao.selectById(product_ID);
 	}
 

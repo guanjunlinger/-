@@ -2,7 +2,7 @@ package com.example.controller.VipOrder;
 
 import java.util.List;
 
-import com.example.pojo.ProOrder.ProOrder;
+import com.example.pojo.ProOrder.OrderDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -62,11 +62,8 @@ public class VipOrderController {
 	}
 	@RequestMapping(value="/subOrder",produces="application/json;charset=UTF-8")
 	@ResponseBody
-	public int subOrder(@RequestBody List<ProOrder> proOrders){
-
-		System.out.println("hahh1");
-		System.out.println(proOrders);
-		return 0;
+	public int subOrder(@RequestBody OrderDetails order){
+		return vipOrderService.generateOrder(order);
 	}
 
 	@RequestMapping(value="/selectById",produces="application/json;charset=UTF-8")
