@@ -68,7 +68,7 @@ function recharge(){
 <body>
 <table id="VIP_Account" title="VIP充值信息" class="easyui-datagrid" 
 		toolbar="#toolbar" fit="true" idField="discount_ID" pagination="true"
-		url="<%=path%>/account/selectrechargetype.do"
+		url="<%=path%>/account/selectRechargeType.do"
 		rownumbers="true" fitColumns="true" singleSelect="true">
 	<thead> 
 		<tr> 

@@ -13,7 +13,7 @@ String path = request.getContextPath();
 <link rel="stylesheet" type="text/css"  href="<%=path%>/easyui_1.5.2/themes/default/easyui.css" />  
 <link rel="stylesheet" type="text/css"  href="<%=path%>/easyui_1.5.2/themes/icon.css" />
 <script type="text/javascript">
-function doSearchb() { 
+function doSearch() {
 	$('#Account_balance').datagrid('load',{
 		vip_Balance:$('#time').val(),
 	});
@@ -39,7 +39,7 @@ function doSearchb() {
 	<div id="toolbar" style="padding:3px">
 		<span>余额:</span>		
 		<input id="time" style="line-height:26px;border:1px solid #ccc">
-		<a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="doSearchb()">查询</a>
+		<a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="doSearch()">查询</a>
 		
 		
 	</div>

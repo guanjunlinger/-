@@ -19,11 +19,11 @@ function doSearch() {
 		vip_ID: $('#vip_ID').val()
 	});
 } 
-</script>
+</script>5
 <body>
 <table id="VIP_Account" title="VIP充值记录" class="easyui-datagrid" 
 		toolbar="#toolbar" fit="true" idField="recharge_Time" pagination="true"
-		url="<%=path%>/account/selectrechargeRecordByID.do"
+		url="<%=path%>/account/selectRechargeRecordByID.do"
 		rownumbers="true" fitColumns="true" singleSelect="true">
 	<thead> 
 		<tr> 

@@ -2,14 +2,13 @@ package com.example.controller.VipOrder;
 
 import java.util.List;
 
-import com.example.pojo.ProOrder.ProOrder;
+import com.example.pojo.OrderDetails.OrderItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import com.example.pojo.VIPORDER.VipOrder;
 import com.example.service.VIPORDER.VipOrderService;
 
@@ -62,10 +61,8 @@ public class VipOrderController {
 	}
 	@RequestMapping(value="/subOrder",produces="application/json;charset=UTF-8")
 	@ResponseBody
-	public int subOrder(@RequestBody List<ProOrder> proOrders){
-
-		System.out.println("hahh1");
-		System.out.println(proOrders);
+	public int subOrder(@RequestBody List<OrderItem> orderList,@RequestBody String vip_ID){
+		System.out.println(orderList);
 		return 0;
 	}
 } 
