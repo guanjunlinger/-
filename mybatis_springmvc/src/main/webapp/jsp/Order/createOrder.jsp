@@ -27,7 +27,7 @@
 		};
         $.ajax({
             type:"POST",
-            url: "<%=path%>/viporder/subOrder.do",
+            url: "<%=path%>/viporder/CreateOrder.do",
             dataType:"json",
             contentType:"application/json",
             data:JSON.stringify(list),

@@ -9,7 +9,7 @@
      <typeAlias alias="VIP_Recharge" type="com.example.pojo.Discount.VIP_Recharge"/>
      <typeAlias alias="Goods" type="com.example.pojo.Goods.Goods"/>
      <typeAlias alias="VipOrder" type="com.example.pojo.VIPORDER.VipOrder"/>
-
+        <typeAlias alias="OrderItem" type="com.example.pojo.ProOrder.OrderItem"/>
     </typeAliases>
 <mappers>
     <mapper resource="com/example/dao/Account/Account.xml"/>

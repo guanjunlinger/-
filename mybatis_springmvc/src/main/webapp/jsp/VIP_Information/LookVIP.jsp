@@ -109,7 +109,7 @@ function saveUser(){
 			</tr>
 			<tr>
 				<td>会员生日:</td>
-				<td><input name="vip_Birthday" class="easyui-datebox"  editable="false required="true"></input></td>
+				<td><input name="vip_Birthday" class="easyui-datebox"  editable="false" required="true" /></td>
 			</tr>
 			<tr>
 				<td>会员电话:</td>
