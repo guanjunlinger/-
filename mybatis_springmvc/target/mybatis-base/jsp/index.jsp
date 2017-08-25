@@ -84,7 +84,7 @@
 				<ul>
 					<li><span><a href="#" onclick="addTab('会员下单','<%=path%>/jsp/Order/createOrder.jsp')">会员下单</a></span></li>
 					<li><span><a href="#" onclick="addTab('订单查询','<%=path%>/jsp/Order/lookOrder.jsp')">订单查询</a></span></li>
-
+					<li><span><a href="#" onclick="addTab('订单详情','<%=path%>/jsp/Order/OrderDetails.jsp')">订单详情</a></span></li>
 				</ul>
 			</li>
 			<li>

@@ -15,32 +15,12 @@
 </head>
 <script type="text/javascript">
 
-
-
     function doSearch() {
         $('#OrderInformation').datagrid('load',{
             vip_ID: $('#vip_ID').val(),
             order_ID: $('#order_ID').val()
         });
     }
-
-    function doEdit(){
-        var row = $('#OrderInformation').datagrid('getSelected');
-        if (!row){
-            $.messager.alert('提示信息', '未选中数据！', 'warning');
-            return;
-        }
-        $('#dlg').dialog('open').dialog('setTitle','查看订单详情信息');
-        $('#OrderDetails').datagrid("options").url = '<%=path%>/viporder/getOrderItems.do';
-        $('#OrderDetails').datagrid('load',{
-            order_ID: row['order_ID']
-        });
-    }
-function Close() {
- $('#dlg').dialog('close');
- $('#OrderInformation').datagrid('load');
-}
-
 
 </script>
 <body>
@@ -66,25 +46,6 @@ function Close() {
         <span>订单编号:</span>
         <input id="order_ID" style="line-height:26px;border:1px solid #ccc">
         <a href="#" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="doSearch()">查询</a>
-        <a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="doEdit()">详情信息</a>
-    </div>
-</div>
-<div id="dlg" class="easyui-dialog" style="width:90%;height:90%;" closed="true" buttons="#dlg-buttons">
-    <div id="panel" class="easyui-panel">
-    <table id="OrderDetails"  class="easyui-datagrid" fit="true" idField="product_ID" pagination="true"
-           rownumbers="true"      fitColumns="true" style="width:90%;height:90%;">
-        <thread>
-            <tr>
-                <th field="product_ID" width="50">商品ID</th>
-                <th field="product_Description" width="100">商品描述</th>
-                <th field="product_Price" width="50">商品价格</th>
-                <th field="product_Num" width="50">商品数量</th>
-            </tr>
-        </thread>
-    </table>
-    </div>
-    <div id="dlg-buttons">
-        <a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="Close()">取消</a>
     </div>
 </div>
 </body>
