@@ -10,6 +10,10 @@
      <typeAlias alias="Goods" type="com.example.pojo.Goods.Goods"/>
      <typeAlias alias="VipOrder" type="com.example.pojo.VIPORDER.VipOrder"/>
         <typeAlias alias="OrderItem" type="com.example.pojo.ProOrder.OrderItem"/>
+
+        <typeAlias alias="Discount" type="com.example.pojo.Discount.Discount"/>
+        <typeAlias alias="VIP_Discount" type="com.example.pojo.Discount.VIP_Discount"/>
+        <typeAlias alias="VDiscount" type="com.example.pojo.Discount.VDisccount"/>
     </typeAliases>
 <mappers>
     <mapper resource="com/example/dao/Account/Account.xml"/>
@@ -17,5 +21,6 @@
     <mapper resource="com/example/dao/Goods/Goods.xml"/>
     <mapper resource="com/example/dao/VIP/VIP.xml"/>
     <mapper resource="com/example/dao/VIPORDER/VipOrder.xml"/>
+    <mapper resource="com/example/dao/Discount/Discount.xml"/>
     </mappers>
 </configuration>

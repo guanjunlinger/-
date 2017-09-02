@@ -50,7 +50,7 @@ $.extend($.fn.validatebox.defaults.rules,{
             },  
     integer : {// 验证整数  
                 validator : function(value) {  
-                    return /^[+]?[0-9]+\d*$/i.test(value);  
+                    return /^[+]{0,1}(\d+)$|^[+]{0,1}(\d+\.\d+)$/.test(value);
                 },  
                 message : '请输入整数'  
             },            

@@ -38,5 +38,11 @@ return  vipService.updateVIP(user);
 public List<VIP_InFormation> SelectVIPByBirthday(@RequestParam(value="time",required=false,defaultValue="7") Integer time){
 	return vipService.SelectVIPByBirthday(time);
 }
+@ResponseBody
+@RequestMapping(value="/selectLevel",produces="application/json;charset=UTF-8")
+public List<VIP_InFormation> selectLevel(){
+	System.out.println("aaa");
+  return vipService.selectLevel();
+}
 
 }

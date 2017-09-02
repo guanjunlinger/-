@@ -46,5 +46,10 @@
    <if test="vip_Age!=null"> vip_Age=#{vip_Age}</if>
    </set>
    where  vip_ID=#{vip_ID}
-   </update> 
+   </update>
+
+
+    <select id="selectLevel" resultType="VIP_InFormation">
+        SELECT *, COUNT(DISTINCT vip_Level) FROM vip_information GROUP BY vip_Level ORDER BY vip_Level
+    </select>
 </mapper>

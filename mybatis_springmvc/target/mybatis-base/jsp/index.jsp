@@ -47,6 +47,14 @@
 						<span>会员账户管理</span>
 						<ul>
 							<li>
+								<span>充值优惠信息</span>
+								<ul>
+									<li><span><a href="#" onclick="addTab('添加优惠信息','<%=path%>/jsp/Discount/AddDis.jsp')">添加优惠信息</a></span></li>
+									<li><span><a href="#" onclick="addTab('查看优惠信息','<%=path%>/jsp/Discount/LookDis.jsp')">查看优惠信息</a></span></li>
+								</ul>
+							</li>
+
+							<li>
 								<span>会员充值管理</span>
 								<ul>
 									<li><span><a href="#" onclick="addTab('会员充值提醒','<%=path%>/jsp/VIP_Account/Account_balance.jsp')">会员余额提醒</a></span></li>
