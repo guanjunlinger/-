@@ -104,7 +104,7 @@ $.extend($.fn.validatebox.defaults.rules,{
 			</tr>
 				<tr>
 				<td>会员邮箱:</td>
-				<td><input name="vip_Mailbox" class="easyui-validatebox" validtype="email" type="text" required="true"></input></td>
+				<td><input name="vip_Mailbox" class="easyui-validatebox" type="text" ></input></td>
 			</tr>
 				<tr>
 				<td>会员年龄:</td>
