@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.dao.Discount.VipDiscountDao">
+    <insert id="insertVipDiscount" parameterType="VIP_Discount" useGeneratedKeys="true" keyProperty="VIP_Level_ID">
+          INSERT INTO  VIP_Discount (Level_Description,Discount_count,Discount_price)
+          VALUES (#{level_Description},#{discount_count},#{discount_price})
+    </insert>
+
+    <select id="selectByVIP_Level_ID" resultType="VIP_Discount">
+        SELECT VIP_Level_ID,Level_Description,Discount_count,Discount_price
+        FROM  VIP_Discount
+        <where>
+
+            <if test="VIP_Level_ID!=null">
+            AND    VIP_Level_ID=#{vip_Level_ID}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateVipDiscount" parameterType="VIP_Discount">
+        UPDATE  VIP_Discount
+        <set>
+            <if test="level_Description!=null and level_Description!=''">
+                Level_Description=#{level_Description},
+            </if>
+            <if test="discount_count!=null and discount_count >=0">
+            Discount_count=#{discount_count},
+            </if>
+            <if test="discount_price!=null and discount_price>=0">
+                Discount_price=#{discount_price}
+            </if>
+        </set>
+        WHERE VIP_Level_ID= #{vip_Level_ID}
+    </update>
+</mapper>

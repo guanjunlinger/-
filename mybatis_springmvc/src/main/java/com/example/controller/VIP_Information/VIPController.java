@@ -2,7 +2,6 @@ package com.example.controller.VIP_Information;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -16,8 +15,7 @@ public class VIPController {
 private VIPService vipService;
 @ResponseBody  
 @RequestMapping(value="/insertvip",produces="application/json;charset=UTF-8")
-public int insertUser(@ModelAttribute("user")VIP_InFormation user){
-	System.out.println(user.toString());
+public int insertUser(VIP_InFormation user){
 return vipService.insertVIP(user);	
 }
 @ResponseBody  
@@ -38,11 +36,4 @@ return  vipService.updateVIP(user);
 public List<VIP_InFormation> SelectVIPByBirthday(@RequestParam(value="time",required=false,defaultValue="7") Integer time){
 	return vipService.SelectVIPByBirthday(time);
 }
-@ResponseBody
-@RequestMapping(value="/selectLevel",produces="application/json;charset=UTF-8")
-public List<VIP_InFormation> selectLevel(){
-	System.out.println("aaa");
-  return vipService.selectLevel();
-}
-
 }

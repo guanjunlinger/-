@@ -14,7 +14,11 @@ String path = request.getContextPath();
 <link rel="stylesheet" type="text/css"  href="<%=path%>/easyui_1.5.2/themes/icon.css" />
 </head>
 <script>
-function doSearch() { 
+function doSearch() {
+    var opts=$("#VIP_Information").datagrid("options");
+    if(null==opts.url||""==opts.url){
+        opts.url="<%=path%>/vip/selectvip.do";
+    }
 	$('#VIP_Information').datagrid('load',{
 		vip_ID: $('#vip_ID').val(),
 		vip_Name: $('#vip_Name').val()
@@ -57,20 +61,17 @@ function saveUser(){
 }
 </script>
 <body>
-<table id="VIP_Information" title="VIP基本信息" class="easyui-datagrid" 
-		url="<%=path%>/vip/selectvip.do"
+<table id="VIP_Information" title="VIP基本信息" class="easyui-datagrid"
 		toolbar="#toolbar" fit="true" idField="vip_ID" pagination="true"
 		rownumbers="true" fitColumns="true" singleSelect="true">
 	<thead> 
 		<tr>
 		    <th field="ID" checkbox="true"></th>
 			<th field="vip_ID" width="50">会员号</th>
-			<th field="vip_Level" width="40">会员等级</th>
 			<th field="vip_Name" width="50">会员姓名</th>
 			<th field="vip_Gender" width="40">会员性别</th>
 			<th field="vip_Birthday" width="50">会员生日</th>
 			<th field="vip_Telephone" width="50">联系方式</th>
-			<th field="vip_Mailbox" width="80">邮箱</th>
 			<th field="vip_Age" width="50">会员年龄</th>
 			<th field="vip_Address" width="80">家庭住址</th>
 			<th field="vip_Time" width="50">注册时间</th>
@@ -104,20 +105,12 @@ function saveUser(){
 				<td><input name="vip_Name" class="easyui-validatebox" type="text"></input></td>
 			</tr>
 			<tr>
-				<td>会员等级:</td>
-				<td><input name="vip_Level" class="easyui-validatebox" type="text" required="true"></input></td>
-			</tr>
-			<tr>
 				<td>会员生日:</td>
 				<td><input name="vip_Birthday" class="easyui-datebox"  editable="false" required="true" /></td>
 			</tr>
 			<tr>
 				<td>会员电话:</td>
 				<td><input name="vip_Telephone" class="easyui-validatebox" type="text" required="true"></input></td>
-			</tr>
-				<tr>
-				<td>会员邮箱:</td>
-				<td><input name="vip_Mailbox" class="easyui-validatebox" type="text" required="true"></input></td>
 			</tr>
 				<tr>
 				<td>会员年龄:</td>

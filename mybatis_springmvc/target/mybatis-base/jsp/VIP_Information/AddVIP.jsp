@@ -41,7 +41,7 @@ function submitForm() {
     }); 
 } 
 $.extend($.fn.validatebox.defaults.rules,{  
-    NotEmpty : { // 非空字符串验证。 easyui 原装required 不能验证空格  
+    NotEmpty : {
                 validator : function(value, param) {  
                     return $.trim(value).length>0;  
                 },   
@@ -71,12 +71,6 @@ $.extend($.fn.validatebox.defaults.rules,{
                 },
                 message: '手机号码格式不正确'
             },
-            email: {// 验证邮箱
-                validator: function (value) {
-                    return /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
-                },
-                message: '邮箱格式不正确'
-            },
 });  
 </script>
 <body>
@@ -85,10 +79,6 @@ $.extend($.fn.validatebox.defaults.rules,{
 			<tr>
 				<td>会员名:</td>
 				<td><input name="vip_Name" class="easyui-validatebox" validtype="NotEmpty"  type="text" required="true"></input></td>
-			</tr>
-			<tr>
-				<td>会员等级:</td>
-				<td><input name="vip_Level" class="easyui-validatebox" validtype="NotEmpty" type="text" required="true"></input></td>
 			</tr>
 			<tr>
 				<td>会员性别:</td>
@@ -101,10 +91,6 @@ $.extend($.fn.validatebox.defaults.rules,{
 			<tr>
 				<td>会员电话:</td>
 				<td><input name="vip_Telephone" class="easyui-validatebox" validtype="mobile" type="text" required="true"></input></td>
-			</tr>
-				<tr>
-				<td>会员邮箱:</td>
-				<td><input name="vip_Mailbox" class="easyui-validatebox" type="text" ></input></td>
 			</tr>
 				<tr>
 				<td>会员年龄:</td>

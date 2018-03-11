@@ -3,14 +3,14 @@
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.dao.VIP.VIPDAO">
  <insert id="insertVIP" parameterType="VIP_InFormation" useGeneratedKeys="true" keyProperty="vip_ID">
-    insert into vip_Information(vip_Level,vip_Name,vip_Gender,
-    vip_Birthday,vip_Telephone,vip_Mailbox,vip_Age,vip_Address,
-    vip_Time) values(#{vip_Level},#{vip_Name},#{vip_Gender},
-   #{vip_Birthday},#{vip_Telephone},#{vip_Mailbox},
+    insert into vip_Information(vip_Name,vip_Gender,
+    vip_Birthday,vip_Telephone,vip_Age,vip_Address,
+    vip_Time) values(#{vip_Name},#{vip_Gender},
+   #{vip_Birthday},#{vip_Telephone},
    #{vip_Age},#{vip_Address},#{vip_Time})
    </insert>
    <select id="SelectVIPByID" resultType="VIP_InFormation">
-    select vip_ID,vip_Level,vip_Gender,vip_Name,vip_Birthday,vip_Telephone,vip_Mailbox,vip_Age
+    select vip_ID,vip_Gender,vip_Name,vip_Birthday,vip_Telephone,vip_Age
     ,vip_Address,vip_Time
     from   vip_Information
     <where>
@@ -24,7 +24,7 @@
    </select>
    
   <select id="SelectVIPByBirthday" resultType="VIP_InFormation">
-  select vip_ID,vip_Level,vip_Gender,vip_Name,vip_Birthday,vip_Telephone,vip_Mailbox,vip_Age
+  select vip_ID,vip_Gender,vip_Name,vip_Birthday,vip_Telephone,vip_Age
     ,vip_Address,vip_Time
     from   vip_Information
     <where>
@@ -38,18 +38,11 @@
    update vip_Information
    <set>
    <if test="vip_Name!=null and vip_Name!=''"> vip_Name=#{vip_Name}, </if>
-   <if test="vip_Level!=null"> vip_Level=#{vip_Level}, </if>
    <if test="vip_Birthday!=null">vip_Birthday=#{vip_Birthday}, </if>
    <if test="vip_Telephone!=null and vip_Telephone!=''"> vip_Telephone=#{vip_Telephone}, </if>
-   <if test="vip_Mailbox!=null and vip_Mailbox!=''"> vip_Mailbox=#{vip_Mailbox}, </if>
    <if test="vip_Address and vip_Address!=''"> vip_Address=#{vip_Address}, </if>
    <if test="vip_Age!=null"> vip_Age=#{vip_Age}</if>
    </set>
    where  vip_ID=#{vip_ID}
    </update>
-
-
-    <select id="selectLevel" resultType="VIP_InFormation">
-        SELECT *, COUNT(DISTINCT vip_Level) FROM vip_information GROUP BY vip_Level ORDER BY vip_Level
-    </select>
 </mapper>

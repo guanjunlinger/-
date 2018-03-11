@@ -30,11 +30,4 @@ public class UserServiceImpl implements VIPService{
 	public List<VIP_InFormation> SelectVIPByBirthday(Integer time) {
 		return vipDAO.SelectVIPByBirthday(time);
 	}
-
-	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
-	public List<VIP_InFormation> selectLevel() {
-		return vipDAO.selectLevel();
-	}
-
-
 }
