@@ -14,7 +14,11 @@ String path = request.getContextPath();
 <link rel="stylesheet" type="text/css"  href="<%=path%>/easyui_1.5.2/themes/icon.css" />
 </head>
 <script type="text/javascript">
-function doSearch() { 
+function doSearch() {
+    var opts=$("#Goods").datagrid("options");
+    if(null==opts.url||""==opts.url){
+        opts.url="<%=path%>/goods/selectgoods.do";
+    }
 	$('#Goods').datagrid('load',{
 		product_ID: $('#product_ID').val()
 	});
@@ -59,8 +63,7 @@ function saveGoods(){
 }
 </script>
 <body>
-<table id="Goods" title="商品信息" class="easyui-datagrid" 
-		url="<%=path%>/goods/selectgoods.do"
+<table id="Goods" title="商品信息" class="easyui-datagrid"
 		toolbar="#toolbar" fit="true" idField="vip_ID" pagination="true"
 		rownumbers="true" fitColumns="true" singleSelect="true">
 	<thead> 

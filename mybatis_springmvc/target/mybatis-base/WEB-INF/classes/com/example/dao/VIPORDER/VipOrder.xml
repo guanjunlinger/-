@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.dao.VIPORDER.VipOrderDao">
+<mapper namespace="com.example.dao.VIPOrder.VipOrderDao">
 	<select id="selectByDate" resultType="VipOrder">
-	select vip_ID,order_ID,order_total,order_Time,employee_Name
+	select vip_ID,order_ID,order_total,order_Time
 	from vip_order
 	<where>
 	YEAR(order_Time)=#{year}
 	AND
-	MONTH(order_Time) >= #{month1}
-	AND
-	MONTH(order_Time) &lt;= #{month2}
-	
+	MONTH(order_Time) between #{start} and #{end}
 	</where>
 	</select>
 
 	<select id="selectUserOrderById" resultType="VipOrder">
-		select vip_ID,order_ID,order_total,order_Time,employee_Name
+		select vip_ID,order_ID,order_total,order_Time
 		from vip_order
 		<where>
-			<if test="vip_ID!=null and vip_ID!=''">
+			<if test="vip_ID!=null and vip_ID>0 ">
 				vip_ID=#{vip_ID}
 			</if>
 			<if test="order_ID!=null and order_ID!=''">
@@ -28,13 +25,13 @@
 		</where>
 	</select>
 	<select id="selectOrderDetailsByID" resultType="OrderItem">
-		SELECT a.*,product_Num FROM product_information a,Product_Order b
+		SELECT a.*,product_Num FROM product_information a,Order_Detail b
 		where b.Order_ID=#{order_ID} and b.product_ID=a.Product_ID
 
 
 	</select>
 	<insert id="insertOrderItemById" >
-		insert into product_order(Order_ID,product_ID,product_Num)
+		insert into Order_Detail(Order_ID,product_ID,product_Num)
 		values(#{order_ID},#{orderItem.product_ID},#{orderItem.product_Num})
 	</insert>
 	<insert id="insertOrderById" >

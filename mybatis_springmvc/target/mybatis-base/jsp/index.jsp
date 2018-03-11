@@ -57,16 +57,9 @@
 							<li>
 								<span>会员充值管理</span>
 								<ul>
-									<li><span><a href="#" onclick="addTab('会员充值提醒','<%=path%>/jsp/VIP_Account/Account_balance.jsp')">会员余额提醒</a></span></li>
-									<li><span><a href="#" onclick="addTab('会员充值','<%=path%>/jsp/VIP_Account/VIP_Recharge.jsp')">会员充值</a></span></li>
-									<li><span><a href="#" onclick="addTab('会员充值记录','<%=path%>/jsp/VIP_Account/VIP_RechargeRecord.jsp')">会员充值记录</a></span></li>
-								</ul>
-							</li>
-							<li>
-								<span>会员积分管理</span>
-								<ul>
-									<li><span>积分查询</span></li>
-									<li><span>积分兑换</span></li>
+									<li><span><a href="#" onclick="addTab('会员推拿','<%=path%>/jsp/VIP_Recharge/Recharge_massage.jsp')">会员推拿</a></span></li>
+									<li><span><a href="#" onclick="addTab('会员充值','<%=path%>/jsp/VIP_Recharge/VIP_Recharge.jsp')">会员充值</a></span></li>
+									<li><span><a href="#" onclick="addTab('会员充值记录','<%=path%>/jsp/VIP_Recharge/VIP_RechargeRecord.jsp')">会员充值记录</a></span></li>
 								</ul>
 							</li>
 						</ul>
@@ -83,15 +76,15 @@
 			<li>
 				<span>订单管理</span>
 				<ul>
-					<li><span><a href="#" onclick="addTab('会员下单','<%=path%>/jsp/Order/createOrder.jsp')">会员下单</a></span></li>
-					<li><span><a href="#" onclick="addTab('订单查询','<%=path%>/jsp/Order/lookOrder.jsp')">订单查询</a></span></li>
-					<li><span><a href="#" onclick="addTab('订单详情','<%=path%>/jsp/Order/OrderDetails.jsp')">订单详情</a></span></li>
+					<li><span><a href="#" onclick="addTab('会员下单','<%=path%>/jsp/VIPOrder/createOrder.jsp')">会员下单</a></span></li>
+					<li><span><a href="#" onclick="addTab('订单查询','<%=path%>/jsp/VIPOrder/lookOrder.jsp')">订单查询</a></span></li>
+					<li><span><a href="#" onclick="addTab('订单详情','<%=path%>/jsp/VIPOrder/OrderDetails.jsp')">订单详情</a></span></li>
 				</ul>
 			</li>
 			<li>
 				<span>财务管理</span>
 				<ul>
-					<li><span><a href="#" onclick="addTab('账单查看','<%=path%>/jsp/VIP_Order/VipOrder.jsp')">会员账户查看</a></span></li>
+					<li><span><a href="#" onclick="addTab('账单查看','<%=path%>/jsp/bill/bill.jsp')">会员账户查看</a></span></li>
 				</ul>
 			</li>
 			<li>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.Recharge.RechargeDao">
+    <select id="listVIP" resultType="VIP_Account">
+        select a.VIP_ID as VIP_ID ,b.VIP_Level_ID as VIP_Level_ID ,VIP_Name,Level_Description,Remains
+        from VIP_InFormation a,VIP_Discount b,VIP_Level c
+        where c.VIP_ID=a.VIP_ID and c.VIP_Level_ID=b.VIP_Level_ID
+        <if test="vip_ID!=null and vip_ID>0">c.vip_ID=#{vip_ID}</if>
+    </select>
+
+    <select id="selectRecharge" resultType="VIP_Recharge">
+        select VIP_ID,Recharge_Total as discount_price,Recharge_Time
+        from VIP_Recharge
+        <where>
+            <if test="vip_ID!=null">vip_ID=#{vip_ID}</if>
+        </where>
+        order by Recharge_Time desc
+    </select>
+    <insert id="recharge_insert_VIP_Recharge" parameterType="VIP_Recharge">
+	insert into VIP_Recharge(VIP_ID,Recharge_Total,Recharge_Time)
+	values(#{vip_ID},#{discount_price},#{recharge_Time})
+	</insert>
+    <insert id="recharge_insert_VIP_Level" parameterType="VIP_Recharge">
+		insert into VIP_Level(VIP_ID,VIP_Level_ID,Recharge_Time,Remains)
+		values(#{vip_ID},#{vip_Level_ID},#{recharge_Time},#{discount_count})
+	</insert>
+    <update id="massage">
+        update VIP_Level
+
+        <set>
+            <if test="remains!=null and remains>=1">
+                Remains=#{remains}-1,
+            </if>
+
+        </set>
+        where VIP_ID=#{vip_ID} and VIP_Level_ID=#{vip_Level_ID}
+    </update>
+    <delete id="clear">
+     delete
+     from VIP_Level
+     where Remains=0 or  CURDATE() >= DATE_ADD(Recharge_Time, INTERVAL 1 YEAR)
+    </delete>
+</mapper>

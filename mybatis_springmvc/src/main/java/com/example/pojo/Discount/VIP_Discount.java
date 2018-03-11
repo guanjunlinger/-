@@ -2,10 +2,10 @@ package com.example.pojo.Discount;
 
 public class VIP_Discount {
 
-    private Integer vip_Level_ID;
-    private String level_Description;
-    private Integer discount_count;
-    private Integer discount_price;
+    protected Integer vip_Level_ID;
+    protected String level_Description;
+    protected Integer discount_count;
+    protected Integer discount_price;
 
     public Integer getVip_Level_ID() {
         return vip_Level_ID;

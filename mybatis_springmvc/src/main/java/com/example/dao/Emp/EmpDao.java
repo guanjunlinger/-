@@ -4,9 +4,9 @@ import com.example.pojo.Emp.Employee;
 @Repository
 public interface EmpDao {
 
-	public Employee getEmp(String employee_Name);
+	 Employee getEmp(String employee_Name);
 	
-	public int addEmp(Employee emp);
+	 int addEmp(Employee emp);
 	
-	public int updateEmp(Employee emp);
+	 int updateEmp(Employee emp);
 }

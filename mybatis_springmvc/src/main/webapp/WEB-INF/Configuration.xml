@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-"http://mybatis.org/dtd/mybatis-3-config.dtd">
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <typeAliases> 
-     <typeAlias alias="VIP_InFormation"  type="com.example.pojo.VIP.VIP_InFormation"/>
-     <typeAlias alias="Employee" type="com.example.pojo.Emp.Employee"/>
-     <typeAlias alias="VIP_Discount" type="com.example.pojo.Discount.VIP_Discount"/>
-     <typeAlias alias="VIP_Recharge" type="com.example.pojo.Discount.VIP_Recharge"/>
-     <typeAlias alias="Goods" type="com.example.pojo.Goods.Goods"/>
-     <typeAlias alias="VipOrder" type="com.example.pojo.VIPORDER.VipOrder"/><typeAlias alias="OrderItem" type="com.example.pojo.ProOrder.OrderItem"/><typeAlias alias="VIP_Discount" type="com.example.pojo.Discount.VIP_Discount"/>
+    <typeAliases>
+        <typeAlias alias="VIP_InFormation" type="com.example.pojo.VIP.VIP_InFormation"/>
+        <typeAlias alias="Employee" type="com.example.pojo.Emp.Employee"/>
+        <typeAlias alias="VIP_Discount" type="com.example.pojo.Discount.VIP_Discount"/>
+        <typeAlias alias="VIP_Recharge" type="com.example.pojo.Discount.VIP_Recharge"/>
+        <typeAlias alias="Goods" type="com.example.pojo.Goods.Goods"/>
+        <typeAlias alias="VipOrder" type="com.example.pojo.VipOrder.VipOrder"/>
+        <typeAlias alias="OrderItem" type="com.example.pojo.ProOrder.OrderItem"/>
+        <typeAlias alias="VIP_Account" type="com.example.pojo.VIP.VIP_Account"/>
     </typeAliases>
-<mappers>
-    <mapper resource="com/example/dao/Account/Account.xml"/>
-    <mapper resource="com/example/dao/Emp/Emp.xml"/>
-    <mapper resource="com/example/dao/Goods/Goods.xml"/>
-    <mapper resource="com/example/dao/VIP/VIP.xml"/>
-    <mapper resource="com/example/dao/VIPORDER/VipOrder.xml"/>
-    <mapper resource="com/example/dao/Discount/VipDiscount.xml"/>
-</mappers>
+    <mappers>
+        <mapper resource="com/example/dao/Recharge/Recharge.xml"/>
+        <mapper resource="com/example/dao/Emp/Emp.xml"/>
+        <mapper resource="com/example/dao/Goods/Goods.xml"/>
+        <mapper resource="com/example/dao/VIPInformation/VIP.xml"/>
+        <mapper resource="com/example/dao/VIPOrder/VipOrder.xml"/>
+        <mapper resource="com/example/dao/Discount/VipDiscount.xml"/>
+    </mappers>
 </configuration>

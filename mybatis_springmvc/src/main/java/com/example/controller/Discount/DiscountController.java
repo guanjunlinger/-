@@ -11,29 +11,29 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
-@RequestMapping(value="/discount")
+@RequestMapping(value = "/discount")
 public class DiscountController {
 
     @Autowired
     private Vip_DiscountService vip_discountService;
 
     @ResponseBody
-    @RequestMapping(value="/insertDiscount",produces="application/json;charset=UTF-8")
-    public int insertDiscount(VIP_Discount vipDiscount){
-           return vip_discountService.insertVipDiscount(vipDiscount);
+    @RequestMapping(value = "/insertDiscount", produces = "application/json;charset=UTF-8")
+    public int insertDiscount(VIP_Discount vipDiscount) {
+        return vip_discountService.insertVipDiscount(vipDiscount);
     }
 
 
     @ResponseBody
-    @RequestMapping(value="/selectByVIP_Level_ID",produces="application/json;charset=UTF-8")
-    public List<VIP_Discount> selectByVIP_Level_ID(Integer VIP_Level_ID){
+    @RequestMapping(value = "/selectByVIP_Level_ID", produces = "application/json;charset=UTF-8")
+    public List<VIP_Discount> selectByVIP_Level_ID(@RequestParam(value = "vip_Level_ID",required = false)Integer vip_Level_ID) {
 
-        return vip_discountService.selectByVIP_Level_ID(VIP_Level_ID);
+        return vip_discountService.selectByVIP_Level_ID(vip_Level_ID);
     }
 
     @ResponseBody
-    @RequestMapping(value="/updateVipDiscount",produces="application/json;charset=UTF-8")
-    public int updateVipDiscount(VIP_Discount discount){
+    @RequestMapping(value = "/updateVipDiscount", produces = "application/json;charset=UTF-8")
+    public int updateVipDiscount(VIP_Discount discount) {
         return vip_discountService.updateDiscount(discount);
     }
 }
