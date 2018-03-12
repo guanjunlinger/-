@@ -41,7 +41,8 @@ public class VipOrderController {
 
     @RequestMapping(value = "/selectUserOrderById", produces = "application/json;charset=UTF-8")
     @ResponseBody
-    public List<VipOrder> selectUserOrderById(@RequestParam(value = "vip_ID",required = false) Integer vip_ID, String order_ID) {
+    public List<VipOrder> selectUserOrderById(@RequestParam(value = "vip_ID",required = false) Integer vip_ID, @RequestParam(value = "order_ID",required = false)String order_ID) {
+        System.out.println(order_ID);
         return vipOrderService.selectUserOrderById(vip_ID, order_ID);
     }
 

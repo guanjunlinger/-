@@ -84,7 +84,7 @@
 			<li>
 				<span>财务管理</span>
 				<ul>
-					<li><span><a href="#" onclick="addTab('账单查看','<%=path%>/jsp/bill/bill.jsp')">会员账户查看</a></span></li>
+					<li><span><a href="#" onclick="addTab('账单查看','<%=path%>/jsp/bill/bill.jsp')">账单查看</a></span></li>
 				</ul>
 			</li>
 			<li>

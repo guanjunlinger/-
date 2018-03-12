@@ -36,6 +36,6 @@
 	</insert>
 	<insert id="insertOrderById" >
 		insert into vip_order(VIP_ID,Order_ID,Order_total)
-		values(#{VIP_ID},#{Order_ID},#{Order_total})
+		values(#{vip_ID},#{order_ID},#{orderTotal})
 	</insert>
 </mapper>

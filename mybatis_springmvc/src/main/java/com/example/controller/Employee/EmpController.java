@@ -20,11 +20,10 @@ public class EmpController {
     @ResponseBody
     @RequestMapping(value = "/login", produces = "application/json;charset=UTF-8")
     public int login(@ModelAttribute("emp") Employee emp, HttpServletRequest req) {
-        System.out.println(emp.toString());
-        Employee toemp = empService.getEmp(emp.getEmployee_Name());
-        if (toemp != null) {
-            if (toemp.getEmployee_Password().equals(emp.getEmployee_Password())) {
-                req.getSession().setAttribute("employee", toemp);
+        Employee employee = empService.getEmp(emp.getEmployee_Name());
+        if (employee != null) {
+            if (employee.getEmployee_Password().equals(emp.getEmployee_Password())) {
+                req.getSession().setAttribute("employee", employee);
                 return 2;
             } else
                 return 1;
@@ -35,7 +34,6 @@ public class EmpController {
     @ResponseBody
     @RequestMapping(value = "/addEmp", produces = "application/json;charset=UTF-8")
     public int addEmp(@ModelAttribute("emp") Employee emp) {
-        System.out.println(emp);
         return empService.addEmp(emp);
     }
 

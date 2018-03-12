@@ -11,6 +11,6 @@ public interface VipOrderService {
 
  List<VipOrder> selectByDate(String year,String month);
  float generateOrder(OrderDetails order);
- List<VipOrder> selectUserOrderById(@Param("vip_ID") Integer vip_ID, String order_ID);
+ List<VipOrder> selectUserOrderById(Integer vip_ID, String order_ID);
  List<OrderItem> selectOrderDetailsByID(String order_ID);
 }

@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.dao.Discount.VipDiscountDao">
-    <insert id="insertVipDiscount" parameterType="VIP_Discount" useGeneratedKeys="true" keyProperty="VIP_Level_ID">
+    <insert id="insertVipDiscount" parameterType="VIP_Discount" useGeneratedKeys="true" keyProperty="vip_Level_ID">
           INSERT INTO  VIP_Discount (Level_Description,Discount_count,Discount_price)
           VALUES (#{level_Description},#{discount_count},#{discount_price})
     </insert>
@@ -13,7 +13,7 @@
         FROM  VIP_Discount
         <where>
 
-            <if test="VIP_Level_ID!=null">
+            <if test="vip_Level_ID!=null">
             AND    VIP_Level_ID=#{vip_Level_ID}
             </if>
         </where>

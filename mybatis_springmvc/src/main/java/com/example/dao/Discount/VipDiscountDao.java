@@ -12,7 +12,7 @@ public interface VipDiscountDao {
     int insertVipDiscount(VIP_Discount vip_discount);
 
 
-    List<VIP_Discount> selectByVIP_Level_ID(@Param("VIP_Level_ID")Integer VIP_Level_ID);
+    List<VIP_Discount> selectByVIP_Level_ID(@Param("vip_Level_ID")Integer vip_Level_ID);
 
     int updateVipDiscount(VIP_Discount discount);
 

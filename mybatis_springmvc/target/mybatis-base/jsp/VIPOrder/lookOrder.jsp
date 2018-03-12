@@ -21,7 +21,7 @@
         }
         $('#VIP_Account').datagrid('load',{
             vip_ID: $('#vip_ID').val(),
-            order_ID:$('order_ID').val()
+            order_ID:$('#order_ID').val()
         });
     }
 </script>

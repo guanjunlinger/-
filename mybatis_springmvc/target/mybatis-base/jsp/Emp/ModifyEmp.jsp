@@ -25,7 +25,7 @@ function submitForm() {
         if (data > 0) { 
           $.messager.show({ 
             title: '提示消息', 
-            msg: '提交成功', 
+            msg: '修改成功',
             showType: 'show', 
             timeout: 1000, 
             style: { 
@@ -36,7 +36,7 @@ function submitForm() {
           window.location.replace="<%=path%>/jsp/login.jsp"
         } 
         else { 
-          $.messager.alert('提示信息', '提交失败，请联系管理员！', 'warning'); 
+          $.messager.alert('提示信息', '修改失败，请联系管理员！', 'warning');
       } 
       } 
     }); 
@@ -58,8 +58,7 @@ function submitForm() {
 			</form>
 			
 			<div region="south" border="false" style="text-align:right;padding:5px 0;">
-                <a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="submitForm()">登录</a>
+                <a class="easyui-linkbutton" iconCls="icon-ok"  href="javascript:void(0)" onclick="submitForm()">修改</a>
             </div>
-<body>
 </body>
 </html>

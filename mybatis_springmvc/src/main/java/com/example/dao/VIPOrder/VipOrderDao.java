@@ -15,9 +15,9 @@ public interface VipOrderDao {
 
      List<VipOrder> selectUserOrderById(@Param("vip_ID") Integer vip_ID, @Param("order_ID") String order_ID);
 
-     Integer insertOrderItemById(OrderItem orderItem, String order_ID);
+     Integer insertOrderItemById(@Param("orderItem")OrderItem orderItem, @Param("order_ID")String order_ID);
 
-     Integer insertOrderById(String vipId,  String orderId,@Param("orderTotal") Float orderTotal);
+     Integer insertOrderById(@Param("vip_ID") String vip_ID,  @Param("order_ID") String orderId,@Param("orderTotal") Float orderTotal);
 
-     List<OrderItem> selectOrderDetailsByID(String order_ID);
+     List<OrderItem> selectOrderDetailsByID(@Param("order_ID") String order_ID);
 }

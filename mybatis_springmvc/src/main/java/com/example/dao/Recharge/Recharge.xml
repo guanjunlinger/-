@@ -6,7 +6,7 @@
         select a.VIP_ID as VIP_ID ,b.VIP_Level_ID as VIP_Level_ID ,VIP_Name,Level_Description,Remains
         from VIP_InFormation a,VIP_Discount b,VIP_Level c
         where c.VIP_ID=a.VIP_ID and c.VIP_Level_ID=b.VIP_Level_ID
-        <if test="vip_ID!=null and vip_ID>0">c.vip_ID=#{vip_ID}</if>
+        <if test="vip_ID!=null and vip_ID>0"> and c.vip_ID=#{vip_ID}</if>
     </select>
 
     <select id="selectRecharge" resultType="VIP_Recharge">

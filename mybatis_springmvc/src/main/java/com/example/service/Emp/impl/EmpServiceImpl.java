@@ -20,7 +20,6 @@ public class EmpServiceImpl implements EmpService {
 	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
 	@Override
 	public int addEmp(Employee emp) {
-		// TODO Auto-generated method stub
 		return empDao.addEmp(emp);
 	}
 	@Transactional(propagation=Propagation.REQUIRES_NEW,isolation=Isolation.REPEATABLE_READ)
